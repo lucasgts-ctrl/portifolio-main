@@ -13,13 +13,14 @@
     --background-color: gray;
     --color1: #000;
     --color2: #111;
-    --color3:#707070;
+    --color3: #707070;
     --h1color: #9929EA;
 }
 /*----body----->*/
 body{
     max-width: 1400px;
     margin: 0 auto;
+    background-color: var(--color1);
 }
 /*<-----Header----->*/
 header{
