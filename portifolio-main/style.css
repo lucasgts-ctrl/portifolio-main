@@ -14,6 +14,7 @@
     --color1: #000;
     --color2: #111;
     --color3: #707070;
+    --color4: #151515;
     --h1color: #9929EA;
 }
 /*----body----->*/
@@ -257,4 +258,54 @@ main .Sobre{
     .Sobre_conteudo{
         grid-column: 1/-1;
     }
+}
+/*<----icon---->*/
+.my_services{
+    color: var(--text-color);
+}
+/*<----Services---->*/
+.services{
+    margin-top: -30px;
+    padding: 60px;
+    background-color: var(--color4);
+}
+.my_services{
+    color: var(--text-color);
+    padding: 60px;
+}
+.my_services ul{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.my_services ul li{
+    position: relative;
+    display: grid;
+    cursor: pointer;
+    place-items: center;
+    padding: 10px;
+    background-color: var(--color2);
+    gap: 30px;
+    text-align:center;
+    height: 300px;
+    max-width: 300px;
+    border-radius:16px;
+    align-content: center;
+}
+.my_services ul li i {    
+    font-size: 2rem;
+    color: var(--h1color);
+}
+.my_services ul li h3 {
+    color: var(--text-color);
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 400;
+}
+.my_services ul li p{
+    color: var(--color3);
+    font-size: 1rem;
+
 }
